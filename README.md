@@ -138,7 +138,7 @@ Bu aşamada değiştirmeniz gereken yerler;
 # Validatörünüze token delege etmek için kod:
 
 ```
-strided tx staking delegate <STRIDE_VALOPER_ADRESINIZ> <MIKTAR> ustrd --from=<CUZDANADINIZ> --chain-id=STRIDE-TESTNET-2 --gas=auto
+strided tx staking delegate <STRIDE_VALOPER_ADRESINIZ> <MIKTAR>ustrd --from=<CUZDANADINIZ> --chain-id=STRIDE-TESTNET-2 --gas=auto
 ```
 
 # Logları kontrol etmek için kod:
