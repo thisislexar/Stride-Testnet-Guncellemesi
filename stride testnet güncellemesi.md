@@ -15,7 +15,7 @@ sudo systemctl stop strided
 cd $HOME
 rm -rf stride
 git clone https://github.com/Stride-Labs/stride.git && cd stride
-git checkout 15e65e9a364804671425051606fe0be6536452fe
+git checkout 4ec1b0ca818561cef04f8e6df84069b14399590e 
 make build
 sudo cp $HOME/stride/build/strided /usr/local/bin
 sudo systemctl restart strided && journalctl -fu strided -o cat
