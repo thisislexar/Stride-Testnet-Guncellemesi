@@ -17,5 +17,5 @@ git clone https://github.com/Stride-Labs/stride.git && cd stride
 git checkout 90859d68d39b53333c303809ee0765add2e59dab
 make build
 sudo mv build/strided $(which strided)
-sudo systemctl restart strided && systemctl restart systemd-journald.service && syjournalctl -fu strided -o cat
+sudo systemctl restart strided && systemctl restart systemd-journald.service && journalctl -fu strided -o cat
 ```
